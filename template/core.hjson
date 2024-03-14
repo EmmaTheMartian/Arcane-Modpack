@@ -1,0 +1,44 @@
+{
+    name: Arcanepack (Core)
+
+    enable-all-modules: true
+
+    modules: {
+        core: {
+            name: Core
+            mods: [
+                skulk-transporting
+                beans-backpacks
+                item-collectors
+                comforts
+                farmers-delight
+                storage-delight
+                trash-cans
+                salvage-furnace
+                wrenchest
+                ironchests
+                enderchests
+                endertanks
+                functional-storage
+                allaybottle
+                rechiseled
+                pretty-pipes
+                dyeable-redstone-signal
+                more-red
+                colored-displays!
+            ]
+        }
+
+        // Mods that add no items/blocks
+        misc: {
+            name: Misc
+            mods: [
+                modonomicon
+                curios
+                interaction-wheel
+                corpse
+                notes
+            ]
+        }
+    }
+}
